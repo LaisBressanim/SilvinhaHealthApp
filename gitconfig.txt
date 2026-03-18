@@ -1,0 +1,19 @@
+-- Configuração do GIT
+git config --global user.name LaisBressanim
+git config --global user.email laismartim2009@gmail.com
+
+--Criar um projeto vazio
+npx create-expo-app@latest SilvinhaHealthApp --template blank
+ 
+ cd SilvinhaHealthApp
+
+  -- Bibliotecas
+  npx expo install expo-router react-native-safe-area-context-react-native-screens expo-linking expo-constants expo-status-bar
+
+  -- app.json:
+
+  "userInterfaceStyle": "light",
+  "scheme": "silvinha-health",
+  'splash": {
+    
+  }
