@@ -10,8 +10,8 @@ onPress={() => router.back()}
 <Text style={styles.backButtonText}>← Voltar</Text>
 </TouchableOpacity>
 
-);
-}
+  );
+ }
 const styles = StyleSheet.create({
 backButton: {
 marginTop: 20,
@@ -24,5 +24,5 @@ backButtonText: {
 color: '#ffffff',
 fontSize: 16,
 fontWeight: '600',
-},
+  },
 });

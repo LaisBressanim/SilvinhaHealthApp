@@ -24,7 +24,7 @@ export default function Layout() {
                         headerShown: true
                     }}
                 />
-            </Stack>
+            
             <Stack.Screen
                 name="imc"
                 options={{
@@ -53,6 +53,7 @@ export default function Layout() {
                     headerShown: true
                 }}
             />
+            </Stack>
         </>
     )
 }
